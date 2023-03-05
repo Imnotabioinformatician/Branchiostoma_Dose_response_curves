@@ -1,6 +1,4 @@
 #Author: Luis A. Yanez-Guerra 
-rm(list = ls(all.names = TRUE)) #will clear all objects includes hidden objects.
-gc() #free up memory and report the memory usage.
 # load packages -----------------------------------------------------------
 library(pacman)
 p_load(tidyverse, png, patchwork, drc, devtools, vroom, credentials, ggsci)
